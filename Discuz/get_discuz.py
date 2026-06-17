@@ -9,7 +9,6 @@ class Discuz():
  
 	def random_captcha_text(self, captcha_size = 4):
 		"""
-		验证码一般都无视大小写；验证码长度4个字符
 		Parameters:
 			captcha_size:验证码长度
 		Returns:
@@ -28,7 +27,7 @@ class Discuz():
 	def download_discuz(self, nums = 5000):
 		"""
 		下载验证码图片
-		Parameters:
+		Parameters:rrr
 			nums:下载的验证码图片数量
 		"""
 		dirname = './Discuz'
